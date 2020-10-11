@@ -72,7 +72,6 @@ C:\Users\Nikolay\Source\Repos\WebAPI\LastVersion\WebAPI\bin\Debug\netcoreapp3.1\
 C:\Users\Nikolay\Source\Repos\WebAPI\LastVersion\WebAPI\bin\Debug\netcoreapp3.1\Microsoft.DotNet.PlatformAbstractions.dll
 C:\Users\Nikolay\Source\Repos\WebAPI\LastVersion\WebAPI\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.dll
 C:\Users\Nikolay\Source\Repos\WebAPI\LastVersion\WebAPI\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.Abstractions.dll
-C:\Users\Nikolay\Source\Repos\WebAPI\LastVersion\WebAPI\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.Design.dll
 C:\Users\Nikolay\Source\Repos\WebAPI\LastVersion\WebAPI\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.Relational.dll
 C:\Users\Nikolay\Source\Repos\WebAPI\LastVersion\WebAPI\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.Sqlite.dll
 C:\Users\Nikolay\Source\Repos\WebAPI\LastVersion\WebAPI\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Caching.Abstractions.dll
