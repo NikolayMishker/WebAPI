@@ -9,3 +9,5 @@ C:\Users\Nikolay\source\repos\WebAPI\LastVersion\Infrastructure\obj\Debug\netcor
 C:\Users\Nikolay\source\repos\WebAPI\LastVersion\Infrastructure\obj\Debug\netcoreapp3.1\Infrastructure.csproj.CopyComplete
 C:\Users\Nikolay\source\repos\WebAPI\LastVersion\Infrastructure\obj\Debug\netcoreapp3.1\Infrastructure.dll
 C:\Users\Nikolay\source\repos\WebAPI\LastVersion\Infrastructure\obj\Debug\netcoreapp3.1\Infrastructure.pdb
+C:\Users\Nikolay\source\repos\WebAPI\LastVersion\Infrastructure\bin\Debug\netcoreapp3.1\Infrastructure.runtimeconfig.json
+C:\Users\Nikolay\source\repos\WebAPI\LastVersion\Infrastructure\bin\Debug\netcoreapp3.1\Infrastructure.runtimeconfig.dev.json

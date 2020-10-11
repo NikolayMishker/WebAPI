@@ -5,6 +5,7 @@ using System.Linq;
 using System.Threading.Tasks;
 using Core.Entities;
 using Infrastructure.Data;
+using Core.Interfaces;
 
 namespace Core.Controllers
 {
@@ -12,24 +13,24 @@ namespace Core.Controllers
     [Route("api/{controller}")]
     public class ProductController : ControllerBase
     {
-        private StoreContext storeContext;
+        private readonly IProductRepository repo;
 
-        public ProductController(StoreContext context)
+        public ProductController(IProductRepository repository)
         {
-            storeContext = context;
+            repo = repository;
         }
 
         [HttpGet]
         public async Task<ActionResult<List<Product>>> GetProduct()
         {
-            var products = await storeContext.Products.ToListAsync();
+            var products = await repo.GetProductAsync();
             return Ok(products);
         }
 
         [HttpGet("{id}")]
         public async Task<ActionResult<Product>> GetProduct(int id)
         {
-            var product = await storeContext.Products.FindAsync(id);
+            var product = await repo.GetProductByIdAsync(id);
             return Ok(product);
         }
 

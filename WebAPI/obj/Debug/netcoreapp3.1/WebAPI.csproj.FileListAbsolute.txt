@@ -112,10 +112,11 @@ C:\Users\Nikolay\Source\Repos\WebAPI\LastVersion\WebAPI\bin\Debug\netcoreapp3.1\
 C:\Users\Nikolay\Source\Repos\WebAPI\LastVersion\WebAPI\obj\Debug\netcoreapp3.1\WebAPI.csprojAssemblyReference.cache
 C:\Users\Nikolay\Source\Repos\WebAPI\LastVersion\WebAPI\obj\Debug\netcoreapp3.1\staticwebassets\WebAPI.StaticWebAssets.Manifest.cache
 C:\Users\Nikolay\Source\Repos\WebAPI\LastVersion\WebAPI\obj\Debug\netcoreapp3.1\staticwebassets\WebAPI.StaticWebAssets.xml
-C:\Users\Nikolay\Source\Repos\WebAPI\LastVersion\WebAPI\obj\Debug\netcoreapp3.1\WebAPI.MvcApplicationPartsAssemblyInfo.cache
 C:\Users\Nikolay\Source\Repos\WebAPI\LastVersion\WebAPI\obj\Debug\netcoreapp3.1\WebAPI.AssemblyInfoInputs.cache
 C:\Users\Nikolay\Source\Repos\WebAPI\LastVersion\WebAPI\obj\Debug\netcoreapp3.1\WebAPI.AssemblyInfo.cs
 C:\Users\Nikolay\Source\Repos\WebAPI\LastVersion\WebAPI\obj\Debug\netcoreapp3.1\WebAPI.RazorTargetAssemblyInfo.cache
 C:\Users\Nikolay\Source\Repos\WebAPI\LastVersion\WebAPI\obj\Debug\netcoreapp3.1\WebAPI.csproj.CopyComplete
 C:\Users\Nikolay\Source\Repos\WebAPI\LastVersion\WebAPI\obj\Debug\netcoreapp3.1\WebAPI.dll
 C:\Users\Nikolay\Source\Repos\WebAPI\LastVersion\WebAPI\obj\Debug\netcoreapp3.1\WebAPI.pdb
+C:\Users\Nikolay\Source\Repos\WebAPI\LastVersion\WebAPI\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.Design.dll
+C:\Users\Nikolay\Source\Repos\WebAPI\LastVersion\WebAPI\obj\Debug\netcoreapp3.1\WebAPI.MvcApplicationPartsAssemblyInfo.cache
