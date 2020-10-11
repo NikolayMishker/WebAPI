@@ -1,7 +1,7 @@
 ﻿using Microsoft.EntityFrameworkCore;
-using WebAPI.Entities;
+using Core.Entities;
 
-namespace WebAPI.Data
+namespace Core.Data
 {
     public class StoreContext : DbContext
     {

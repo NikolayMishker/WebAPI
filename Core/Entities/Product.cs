@@ -1,5 +1,5 @@
 ﻿
-namespace WebAPI.Entities
+namespace Core.Entities
 {
     public class Product
     {

@@ -3,10 +3,10 @@ using Microsoft.EntityFrameworkCore;
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
-using WebAPI.Data;
-using WebAPI.Entities;
+using Core.Data;
+using Core.Entities;
 
-namespace WebAPI.Controllers
+namespace Core.Controllers
 {
     [ApiController]
     [Route("api/{controller}")]
