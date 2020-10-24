@@ -11,27 +11,37 @@ namespace Core.Controllers
 {
     [ApiController]
     [Route("api/{controller}")]
-    public class ProductController : ControllerBase
+    public class ProductsController : ControllerBase
     {
         private readonly IProductRepository repo;
 
-        public ProductController(IProductRepository repository)
+        public ProductsController(IProductRepository repository)
         {
             repo = repository;
         }
 
         [HttpGet]
-        public async Task<ActionResult<List<Product>>> GetProduct()
+        public async Task<ActionResult<List<Product>>> GetProducts()
         {
-            var products = await repo.GetProductAsync();
-            return Ok(products);
+            return Ok(await repo.GetProductsAsync());
         }
 
         [HttpGet("{id}")]
         public async Task<ActionResult<Product>> GetProduct(int id)
         {
-            var product = await repo.GetProductByIdAsync(id);
-            return Ok(product);
+            return Ok(await repo.GetProductByIdAsync(id));
+        }
+
+        [HttpGet("brands")]
+        public async Task<ActionResult<ProductBrand>> GetProductBrands()
+        {
+            return Ok(await repo.GetProductBrandsAsync());
+        }
+
+        [HttpGet("types")]
+        public async Task<ActionResult<Product>> GetProductTypes()
+        {
+            return Ok(await repo.GetProductTypesAsync());
         }
 
     }

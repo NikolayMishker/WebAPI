@@ -1189,11 +1189,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Nikolay\\Source\\Repos\\WebAPI\\LastVersion\\WebAPI\\WebAPI.csproj",
+      "projectUniqueName": "C:\\Users\\Nikolay\\source\\repos\\WebAPI\\LastVersion\\WebAPI\\WebAPI.csproj",
       "projectName": "WebAPI",
-      "projectPath": "C:\\Users\\Nikolay\\Source\\Repos\\WebAPI\\LastVersion\\WebAPI\\WebAPI.csproj",
+      "projectPath": "C:\\Users\\Nikolay\\source\\repos\\WebAPI\\LastVersion\\WebAPI\\WebAPI.csproj",
       "packagesPath": "C:\\Users\\Nikolay\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Nikolay\\Source\\Repos\\WebAPI\\LastVersion\\WebAPI\\obj\\",
+      "outputPath": "C:\\Users\\Nikolay\\source\\repos\\WebAPI\\LastVersion\\WebAPI\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\Nikolay\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -1209,8 +1209,8 @@
       "frameworks": {
         "netcoreapp3.1": {
           "projectReferences": {
-            "C:\\Users\\Nikolay\\Source\\Repos\\WebAPI\\LastVersion\\Infrastructure\\Infrastructure.csproj": {
-              "projectPath": "C:\\Users\\Nikolay\\Source\\Repos\\WebAPI\\LastVersion\\Infrastructure\\Infrastructure.csproj"
+            "C:\\Users\\Nikolay\\source\\repos\\WebAPI\\LastVersion\\Infrastructure\\Infrastructure.csproj": {
+              "projectPath": "C:\\Users\\Nikolay\\source\\repos\\WebAPI\\LastVersion\\Infrastructure\\Infrastructure.csproj"
             }
           }
         }

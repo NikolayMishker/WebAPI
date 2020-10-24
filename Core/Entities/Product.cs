@@ -9,7 +9,7 @@ namespace Core.Entities
 
         public decimal Price { get; set; }
 
-        public string PuctureUrl { get; set; }
+        public string PictureUrl { get; set; }
 
         public ProductType ProductType { get; set; }
 
