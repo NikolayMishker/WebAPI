@@ -121,4 +121,9 @@ C:\Users\Nikolay\Source\Repos\WebAPI\LastVersion\WebAPI\obj\Debug\netcoreapp3.1\
 C:\Users\Nikolay\Source\Repos\WebAPI\LastVersion\WebAPI\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.Design.dll
 C:\Users\Nikolay\source\repos\WebAPI\LastVersion\WebAPI\bin\Debug\netcoreapp3.1\AutoMapper.dll
 C:\Users\Nikolay\source\repos\WebAPI\LastVersion\WebAPI\bin\Debug\netcoreapp3.1\AutoMapper.Extensions.Microsoft.DependencyInjection.dll
+C:\Users\Nikolay\source\repos\WebAPI\LastVersion\WebAPI\bin\Debug\netcoreapp3.1\Microsoft.OpenApi.dll
+C:\Users\Nikolay\source\repos\WebAPI\LastVersion\WebAPI\bin\Debug\netcoreapp3.1\Swashbuckle.AspNetCore.Swagger.dll
+C:\Users\Nikolay\source\repos\WebAPI\LastVersion\WebAPI\bin\Debug\netcoreapp3.1\Swashbuckle.AspNetCore.SwaggerGen.dll
+C:\Users\Nikolay\source\repos\WebAPI\LastVersion\WebAPI\bin\Debug\netcoreapp3.1\Swashbuckle.AspNetCore.SwaggerUI.dll
+C:\Users\Nikolay\source\repos\WebAPI\LastVersion\WebAPI\obj\Debug\netcoreapp3.1\WebAPI.MvcApplicationPartsAssemblyInfo.cs
 C:\Users\Nikolay\source\repos\WebAPI\LastVersion\WebAPI\obj\Debug\netcoreapp3.1\WebAPI.MvcApplicationPartsAssemblyInfo.cache
