@@ -28,8 +28,13 @@ namespace Core
 
             services.AddApplicationServices();
             services.AddSwaggerServiceDocumentation();
-
-
+            services.AddCors(opt =>
+            {
+                opt.AddPolicy("CorsPolicy", policy =>
+                {
+                    policy.AllowAnyMethod().WithOrigins("httrs://localhost:4200");
+                });
+            });
         }
 
         public void Configure(IApplicationBuilder app, IWebHostEnvironment env)
@@ -44,6 +49,8 @@ namespace Core
             app.UseRouting();
 
             app.UseStaticFiles();
+
+            app.UseCors("CorsPolicy");
 
             app.UseSwaggerDocumentation();
 
