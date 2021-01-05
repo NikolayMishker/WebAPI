@@ -6,3 +6,12 @@ C:\Users\Nikolay\source\repos\WebAPI\LastVersion\Core\obj\Debug\netcoreapp3.1\Co
 C:\Users\Nikolay\source\repos\WebAPI\LastVersion\Core\obj\Debug\netcoreapp3.1\Core.AssemblyInfo.cs
 C:\Users\Nikolay\source\repos\WebAPI\LastVersion\Core\obj\Debug\netcoreapp3.1\Core.dll
 C:\Users\Nikolay\source\repos\WebAPI\LastVersion\Core\obj\Debug\netcoreapp3.1\Core.pdb
+C:\Users\Nikol\source\repos\WebAPI\Core\bin\Debug\netcoreapp3.1\Core.deps.json
+C:\Users\Nikol\source\repos\WebAPI\Core\bin\Debug\netcoreapp3.1\Core.dll
+C:\Users\Nikol\source\repos\WebAPI\Core\bin\Debug\netcoreapp3.1\Core.pdb
+C:\Users\Nikol\source\repos\WebAPI\Core\obj\Debug\netcoreapp3.1\Core.csprojAssemblyReference.cache
+C:\Users\Nikol\source\repos\WebAPI\Core\obj\Debug\netcoreapp3.1\Core.AssemblyInfoInputs.cache
+C:\Users\Nikol\source\repos\WebAPI\Core\obj\Debug\netcoreapp3.1\Core.AssemblyInfo.cs
+C:\Users\Nikol\source\repos\WebAPI\Core\obj\Debug\netcoreapp3.1\Core.csproj.CoreCompileInputs.cache
+C:\Users\Nikol\source\repos\WebAPI\Core\obj\Debug\netcoreapp3.1\Core.dll
+C:\Users\Nikol\source\repos\WebAPI\Core\obj\Debug\netcoreapp3.1\Core.pdb

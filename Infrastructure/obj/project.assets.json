@@ -2063,19 +2063,19 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\Nikolay\\.nuget\\packages\\": {}
+    "C:\\Users\\Nikol\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Nikolay\\source\\repos\\WebAPI\\LastVersion\\Infrastructure\\Infrastructure.csproj",
+      "projectUniqueName": "C:\\Users\\Nikol\\source\\repos\\WebAPI\\Infrastructure\\Infrastructure.csproj",
       "projectName": "Infrastructure",
-      "projectPath": "C:\\Users\\Nikolay\\source\\repos\\WebAPI\\LastVersion\\Infrastructure\\Infrastructure.csproj",
-      "packagesPath": "C:\\Users\\Nikolay\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Nikolay\\source\\repos\\WebAPI\\LastVersion\\Infrastructure\\obj\\",
+      "projectPath": "C:\\Users\\Nikol\\source\\repos\\WebAPI\\Infrastructure\\Infrastructure.csproj",
+      "packagesPath": "C:\\Users\\Nikol\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\Nikol\\source\\repos\\WebAPI\\Infrastructure\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\Nikolay\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\Nikol\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -2087,9 +2087,10 @@
       },
       "frameworks": {
         "netcoreapp3.1": {
+          "targetAlias": "netcoreapp3.1",
           "projectReferences": {
-            "C:\\Users\\Nikolay\\source\\repos\\WebAPI\\LastVersion\\Core\\Core.csproj": {
-              "projectPath": "C:\\Users\\Nikolay\\source\\repos\\WebAPI\\LastVersion\\Core\\Core.csproj"
+            "C:\\Users\\Nikol\\source\\repos\\WebAPI\\Core\\Core.csproj": {
+              "projectPath": "C:\\Users\\Nikol\\source\\repos\\WebAPI\\Core\\Core.csproj"
             }
           }
         }
@@ -2102,6 +2103,7 @@
     },
     "frameworks": {
       "netcoreapp3.1": {
+        "targetAlias": "netcoreapp3.1",
         "dependencies": {
           "AutoMapper.Extensions.Microsoft.DependencyInjection": {
             "target": "Package",
@@ -2144,7 +2146,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.101\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.101\\RuntimeIdentifierGraph.json"
       }
     }
   }

@@ -50,7 +50,7 @@ namespace Core
 
             app.UseStaticFiles();
 
-            app.UseCors("CorsPolicy");
+            app.UseCors(builder => builder.AllowAnyOrigin());
 
             app.UseSwaggerDocumentation();
 
