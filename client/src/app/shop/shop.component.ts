@@ -16,6 +16,7 @@ export class ShopComponent implements OnInit {
   ngOnInit(): void {
     this.shopService.getProducts().subscribe(response =>{
       this.products = response.data;
+      console.log("Product uploaded")
     }, error =>{
       console.log(error)
     })
