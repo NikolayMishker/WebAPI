@@ -968,11 +968,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Nikol\\Source\\Repos\\WebAPI\\Core\\Core.csproj",
+      "projectUniqueName": "C:\\Users\\Nikol\\source\\repos\\WebAPI\\Core\\Core.csproj",
       "projectName": "Core",
-      "projectPath": "C:\\Users\\Nikol\\Source\\Repos\\WebAPI\\Core\\Core.csproj",
+      "projectPath": "C:\\Users\\Nikol\\source\\repos\\WebAPI\\Core\\Core.csproj",
       "packagesPath": "C:\\Users\\Nikol\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Nikol\\Source\\Repos\\WebAPI\\Core\\obj\\",
+      "outputPath": "C:\\Users\\Nikol\\source\\repos\\WebAPI\\Core\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\Nikol\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -1032,7 +1032,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.101\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.103\\RuntimeIdentifierGraph.json"
       }
     }
   }
