@@ -3,6 +3,7 @@ import { IBrand } from '../shared/models/brands';
 import { IProduct } from '../shared/models/product';
 import { IType } from '../shared/models/productType';
 import { ShopService } from './shop.service';
+import { ShopParams } from '../shared/models/shopParams';
 
 @Component({
   selector: 'app-shop',
@@ -14,10 +15,8 @@ export class ShopComponent implements OnInit {
   products: IProduct[];
   brands: IBrand[];
   types: IType[];
-  brandIdSelected: number = 0;
-  typeIdSelected: number = 0;
-  sortSelected = 'name';
-
+  shopParams = new ShopParams();
+  totalCount: number;
 
   constructor(private shopService: ShopService) { }
 
@@ -28,9 +27,13 @@ export class ShopComponent implements OnInit {
   }
 
   getProducts(){
-    this.shopService.getProducts(this.brandIdSelected, this.typeIdSelected, this.sortSelected)
+    this.shopService.getProducts(this.shopParams)
     .subscribe(response =>{
       this.products = response.data;
+      this.shopParams.pageNumber = response.pageIndex;
+      this.shopParams.pageSize = response.pageSize;
+      this.totalCount = response.count;
+      console.log("Product count " + this.totalCount)
       console.log("Products uploaded")
     }, 
       error =>{
@@ -59,12 +62,12 @@ export class ShopComponent implements OnInit {
   }
 
   onBrandSelected(brandId: number){
-    this.brandIdSelected = brandId;
+    this.shopParams.brandId = brandId;
     this.getProducts();
   }
 
   onTypeSelected(typeId: number){
-    this.typeIdSelected = typeId;
+    this.shopParams.typeId = typeId;
     this.getProducts();
   }
 
@@ -72,20 +75,25 @@ export class ShopComponent implements OnInit {
 
     switch(sort) { 
        case "Price: Low to High": { 
-        this.sortSelected = "priceAsc"; 
+        this.shopParams.sort = "priceAsc"; 
           break; 
        }
        case "Price: High to Low": { 
-        this.sortSelected = "priceDesc"; 
+        this.shopParams.sort = "priceDesc"; 
           break; 
        } 
        default: { 
-        this.sortSelected = "name"; 
+        this.shopParams.sort = "name"; 
           break; 
        } 
     }
     console.log(sort);
     this.getProducts();
+  } 
+
+  onPageChanged(event: any){
+     this.shopParams.pageNumber = event.page;
+     this.getProducts();
   }
 
 }
