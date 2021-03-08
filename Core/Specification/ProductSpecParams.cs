@@ -4,7 +4,6 @@
     {
         private const int MaxPageSize = 50;
         private int pageSize = 6;
-        private string search;
         public int PageIndex { get; set; } = 1;
         
         public int PageSize
@@ -16,11 +15,8 @@
         public int? BrandId { get; set; }
         public int? TypeId { get; set; }
         public string Sort { get; set; }
-        public string Search 
-        {
-            get => search;
-            set => value.ToLower();
-        }
+        
+        public string? Search { get; set; }
 
     }
 }
