@@ -12,6 +12,7 @@ export class TestErrorComponent implements OnInit {
   constructor(private http: HttpClient) { }
 
   baseUrl = environment.apiUrl;
+  validationErrors: any
 
   ngOnInit(): void {
   }
@@ -45,6 +46,7 @@ this.http.get(this.baseUrl + 'buggy/badrequest').subscribe(response => {
       console.log(response);
     }, error => {
       console.log(error);
+      this.validationErrors = error.errors
     });
   }
       
