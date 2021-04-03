@@ -2,7 +2,7 @@
 
 namespace Core.Entities
 {
-    class CustomerBasket
+    public class CustomerBasket
     {
         public CustomerBasket()
         {
