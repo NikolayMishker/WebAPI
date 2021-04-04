@@ -29,6 +29,7 @@ export class BasketService {
     return this.http.post(this.baseUrl + 'basket', basket).subscribe(
       (response : IBasket) => {
         this.basketSource.next(response);
+        console.log(response);
       }, error => {
         console.log(error);
       }
@@ -59,6 +60,7 @@ export class BasketService {
    
   private createBasket(): IBasket {
     const basket = new Basket();
+    console.log(basket);
     localStorage.setItem('basket_id', basket.id);
     return basket;
   }
