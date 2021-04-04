@@ -41,7 +41,7 @@ namespace Core
             {
                 opt.AddPolicy("CorsPolicy", policy =>
                 {
-                    policy.AllowAnyMethod().WithOrigins("httrs://localhost:4200");
+                    policy.AllowAnyHeader().AllowAnyMethod().WithOrigins("https://localhost:4200");
                 });
             });
         }
@@ -59,7 +59,7 @@ namespace Core
 
             app.UseStaticFiles();
 
-            app.UseCors(builder => builder.AllowAnyOrigin());
+            app.UseCors("CorsPolicy");
 
             app.UseSwaggerDocumentation();
 
