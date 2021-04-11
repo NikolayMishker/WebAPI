@@ -48,10 +48,6 @@
               "target": "Package",
               "version": "[7.0.0, )"
             },
-            "Microsoft.AspNetCore.Identity.EntityFrameworkCore": {
-              "target": "Package",
-              "version": "[5.0.5, )"
-            },
             "Swashbuckle.AspNetCore.SwaggerGen": {
               "target": "Package",
               "version": "[5.6.3, )"
@@ -128,10 +124,6 @@
               "target": "Package",
               "version": "[7.0.0, )"
             },
-            "Microsoft.AspNetCore.Identity": {
-              "target": "Package",
-              "version": "[2.2.0, )"
-            },
             "Microsoft.EntityFrameworkCore.Sqlite": {
               "target": "Package",
               "version": "[3.1.8, )"
@@ -141,14 +133,6 @@
               "suppressParent": "All",
               "target": "Package",
               "version": "[3.1.8, )"
-            },
-            "Microsoft.IdentityModel.JsonWebTokens": {
-              "target": "Package",
-              "version": "[6.10.0, )"
-            },
-            "Microsoft.IdentityModel.Tokens": {
-              "target": "Package",
-              "version": "[6.10.0, )"
             },
             "StackExchange.Redis": {
               "target": "Package",

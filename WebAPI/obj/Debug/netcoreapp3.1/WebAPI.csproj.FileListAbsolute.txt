@@ -137,8 +137,6 @@ C:\Users\Nikol\source\repos\WebAPI\WebAPI\bin\Debug\netcoreapp3.1\WebAPI.dll
 C:\Users\Nikol\source\repos\WebAPI\WebAPI\bin\Debug\netcoreapp3.1\WebAPI.pdb
 C:\Users\Nikol\source\repos\WebAPI\WebAPI\bin\Debug\netcoreapp3.1\AutoMapper.dll
 C:\Users\Nikol\source\repos\WebAPI\WebAPI\bin\Debug\netcoreapp3.1\AutoMapper.Extensions.Microsoft.DependencyInjection.dll
-C:\Users\Nikol\source\repos\WebAPI\WebAPI\bin\Debug\netcoreapp3.1\Microsoft.Bcl.AsyncInterfaces.dll
-C:\Users\Nikol\source\repos\WebAPI\WebAPI\bin\Debug\netcoreapp3.1\Microsoft.Bcl.HashCode.dll
 C:\Users\Nikol\source\repos\WebAPI\WebAPI\bin\Debug\netcoreapp3.1\Microsoft.Data.Sqlite.dll
 C:\Users\Nikol\source\repos\WebAPI\WebAPI\bin\Debug\netcoreapp3.1\Microsoft.DotNet.PlatformAbstractions.dll
 C:\Users\Nikol\source\repos\WebAPI\WebAPI\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.dll
@@ -148,9 +146,7 @@ C:\Users\Nikol\source\repos\WebAPI\WebAPI\bin\Debug\netcoreapp3.1\Microsoft.Enti
 C:\Users\Nikol\source\repos\WebAPI\WebAPI\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.Sqlite.dll
 C:\Users\Nikol\source\repos\WebAPI\WebAPI\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Caching.Abstractions.dll
 C:\Users\Nikol\source\repos\WebAPI\WebAPI\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Caching.Memory.dll
-C:\Users\Nikol\source\repos\WebAPI\WebAPI\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Configuration.dll
 C:\Users\Nikol\source\repos\WebAPI\WebAPI\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Configuration.Abstractions.dll
-C:\Users\Nikol\source\repos\WebAPI\WebAPI\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Configuration.Binder.dll
 C:\Users\Nikol\source\repos\WebAPI\WebAPI\bin\Debug\netcoreapp3.1\Microsoft.Extensions.DependencyInjection.dll
 C:\Users\Nikol\source\repos\WebAPI\WebAPI\bin\Debug\netcoreapp3.1\Microsoft.Extensions.DependencyInjection.Abstractions.dll
 C:\Users\Nikol\source\repos\WebAPI\WebAPI\bin\Debug\netcoreapp3.1\Microsoft.Extensions.DependencyModel.dll
@@ -222,3 +218,7 @@ C:\Users\Nikol\source\repos\WebAPI\WebAPI\bin\Debug\netcoreapp3.1\runtimes\win\l
 C:\Users\Nikol\source\repos\WebAPI\WebAPI\bin\Debug\netcoreapp3.1\runtimes\unix\lib\netcoreapp2.1\System.Security.Principal.Windows.dll
 C:\Users\Nikol\source\repos\WebAPI\WebAPI\bin\Debug\netcoreapp3.1\runtimes\win\lib\netcoreapp2.1\System.Security.Principal.Windows.dll
 C:\Users\Nikol\source\repos\WebAPI\WebAPI\bin\Debug\netcoreapp3.1\runtimes\win\lib\netcoreapp3.0\System.Windows.Extensions.dll
+C:\Users\Nikol\source\repos\WebAPI\WebAPI\bin\Debug\netcoreapp3.1\Microsoft.Bcl.AsyncInterfaces.dll
+C:\Users\Nikol\source\repos\WebAPI\WebAPI\bin\Debug\netcoreapp3.1\Microsoft.Bcl.HashCode.dll
+C:\Users\Nikol\source\repos\WebAPI\WebAPI\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Configuration.dll
+C:\Users\Nikol\source\repos\WebAPI\WebAPI\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Configuration.Binder.dll
