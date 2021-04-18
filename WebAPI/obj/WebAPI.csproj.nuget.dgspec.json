@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Nikol\\Source\\Repos\\WebAPI\\WebAPI\\WebAPI.csproj": {}
+    "C:\\Users\\Nikol\\source\\repos\\WebAPI\\WebAPI\\WebAPI.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Nikol\\Source\\Repos\\WebAPI\\Core\\Core.csproj": {
+    "C:\\Users\\Nikol\\source\\repos\\WebAPI\\Core\\Core.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Nikol\\Source\\Repos\\WebAPI\\Core\\Core.csproj",
+        "projectUniqueName": "C:\\Users\\Nikol\\source\\repos\\WebAPI\\Core\\Core.csproj",
         "projectName": "Core",
-        "projectPath": "C:\\Users\\Nikol\\Source\\Repos\\WebAPI\\Core\\Core.csproj",
+        "projectPath": "C:\\Users\\Nikol\\source\\repos\\WebAPI\\Core\\Core.csproj",
         "packagesPath": "C:\\Users\\Nikol\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Nikol\\Source\\Repos\\WebAPI\\Core\\obj\\",
+        "outputPath": "C:\\Users\\Nikol\\source\\repos\\WebAPI\\Core\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -22,15 +22,15 @@
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
-          "netcoreapp3.1"
+          "net5.0"
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
-          "netcoreapp3.1": {
-            "targetAlias": "netcoreapp3.1",
+          "net5.0": {
+            "targetAlias": "net5.0",
             "projectReferences": {}
           }
         },
@@ -41,20 +41,12 @@
         }
       },
       "frameworks": {
-        "netcoreapp3.1": {
-          "targetAlias": "netcoreapp3.1",
+        "net5.0": {
+          "targetAlias": "net5.0",
           "dependencies": {
-            "AutoMapper.Extensions.Microsoft.DependencyInjection": {
+            "Microsoft.AspNetCore.Identity.EntityFrameworkCore": {
               "target": "Package",
-              "version": "[7.0.0, )"
-            },
-            "Swashbuckle.AspNetCore.SwaggerGen": {
-              "target": "Package",
-              "version": "[5.6.3, )"
-            },
-            "Swashbuckle.AspNetCore.SwaggerUI": {
-              "target": "Package",
-              "version": "[5.6.3, )"
+              "version": "[5.0.3, )"
             }
           },
           "imports": [
@@ -76,14 +68,14 @@
         }
       }
     },
-    "C:\\Users\\Nikol\\Source\\Repos\\WebAPI\\Infrastructure\\Infrastructure.csproj": {
+    "C:\\Users\\Nikol\\source\\repos\\WebAPI\\Infrastructure\\Infrastructure.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Nikol\\Source\\Repos\\WebAPI\\Infrastructure\\Infrastructure.csproj",
+        "projectUniqueName": "C:\\Users\\Nikol\\source\\repos\\WebAPI\\Infrastructure\\Infrastructure.csproj",
         "projectName": "Infrastructure",
-        "projectPath": "C:\\Users\\Nikol\\Source\\Repos\\WebAPI\\Infrastructure\\Infrastructure.csproj",
+        "projectPath": "C:\\Users\\Nikol\\source\\repos\\WebAPI\\Infrastructure\\Infrastructure.csproj",
         "packagesPath": "C:\\Users\\Nikol\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Nikol\\Source\\Repos\\WebAPI\\Infrastructure\\obj\\",
+        "outputPath": "C:\\Users\\Nikol\\source\\repos\\WebAPI\\Infrastructure\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -94,18 +86,18 @@
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
-          "netcoreapp3.1"
+          "net5.0"
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
-          "netcoreapp3.1": {
-            "targetAlias": "netcoreapp3.1",
+          "net5.0": {
+            "targetAlias": "net5.0",
             "projectReferences": {
-              "C:\\Users\\Nikol\\Source\\Repos\\WebAPI\\Core\\Core.csproj": {
-                "projectPath": "C:\\Users\\Nikol\\Source\\Repos\\WebAPI\\Core\\Core.csproj"
+              "C:\\Users\\Nikol\\source\\repos\\WebAPI\\Core\\Core.csproj": {
+                "projectPath": "C:\\Users\\Nikol\\source\\repos\\WebAPI\\Core\\Core.csproj"
               }
             }
           }
@@ -117,34 +109,28 @@
         }
       },
       "frameworks": {
-        "netcoreapp3.1": {
-          "targetAlias": "netcoreapp3.1",
+        "net5.0": {
+          "targetAlias": "net5.0",
           "dependencies": {
-            "AutoMapper.Extensions.Microsoft.DependencyInjection": {
+            "Microsoft.AspNetCore.Identity": {
               "target": "Package",
-              "version": "[7.0.0, )"
+              "version": "[2.2.0, )"
             },
             "Microsoft.EntityFrameworkCore.Sqlite": {
               "target": "Package",
               "version": "[3.1.8, )"
             },
-            "Microsoft.EntityFrameworkCore.Tools": {
-              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
-              "suppressParent": "All",
+            "Microsoft.IdentityModel.Tokens": {
               "target": "Package",
-              "version": "[3.1.8, )"
+              "version": "[6.8.0, )"
             },
             "StackExchange.Redis": {
               "target": "Package",
               "version": "[2.2.4, )"
             },
-            "Swashbuckle.AspNetCore.SwaggerGen": {
+            "System.IdentityModel.Tokens.Jwt": {
               "target": "Package",
-              "version": "[5.6.3, )"
-            },
-            "Swashbuckle.AspNetCore.SwaggerUI": {
-              "target": "Package",
-              "version": "[5.6.3, )"
+              "version": "[6.8.0, )"
             }
           },
           "imports": [
@@ -166,14 +152,14 @@
         }
       }
     },
-    "C:\\Users\\Nikol\\Source\\Repos\\WebAPI\\WebAPI\\WebAPI.csproj": {
+    "C:\\Users\\Nikol\\source\\repos\\WebAPI\\WebAPI\\WebAPI.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Nikol\\Source\\Repos\\WebAPI\\WebAPI\\WebAPI.csproj",
+        "projectUniqueName": "C:\\Users\\Nikol\\source\\repos\\WebAPI\\WebAPI\\WebAPI.csproj",
         "projectName": "WebAPI",
-        "projectPath": "C:\\Users\\Nikol\\Source\\Repos\\WebAPI\\WebAPI\\WebAPI.csproj",
+        "projectPath": "C:\\Users\\Nikol\\source\\repos\\WebAPI\\WebAPI\\WebAPI.csproj",
         "packagesPath": "C:\\Users\\Nikol\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Nikol\\Source\\Repos\\WebAPI\\WebAPI\\obj\\",
+        "outputPath": "C:\\Users\\Nikol\\source\\repos\\WebAPI\\WebAPI\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -184,18 +170,18 @@
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
-          "netcoreapp3.1"
+          "net5.0"
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
-          "netcoreapp3.1": {
-            "targetAlias": "netcoreapp3.1",
+          "net5.0": {
+            "targetAlias": "net5.0",
             "projectReferences": {
-              "C:\\Users\\Nikol\\Source\\Repos\\WebAPI\\Infrastructure\\Infrastructure.csproj": {
-                "projectPath": "C:\\Users\\Nikol\\Source\\Repos\\WebAPI\\Infrastructure\\Infrastructure.csproj"
+              "C:\\Users\\Nikol\\source\\repos\\WebAPI\\Infrastructure\\Infrastructure.csproj": {
+                "projectPath": "C:\\Users\\Nikol\\source\\repos\\WebAPI\\Infrastructure\\Infrastructure.csproj"
               }
             }
           }
@@ -207,24 +193,34 @@
         }
       },
       "frameworks": {
-        "netcoreapp3.1": {
-          "targetAlias": "netcoreapp3.1",
+        "net5.0": {
+          "targetAlias": "net5.0",
           "dependencies": {
             "AutoMapper.Extensions.Microsoft.DependencyInjection": {
               "target": "Package",
               "version": "[7.0.0, )"
             },
+            "Microsoft.AspNetCore.Authentication.JwtBearer": {
+              "target": "Package",
+              "version": "[5.0.1, )",
+              "noWarn": [
+                "NU1605"
+              ]
+            },
+            "Microsoft.AspNetCore.Authentication.OpenIdConnect": {
+              "target": "Package",
+              "version": "[5.0.1, )",
+              "noWarn": [
+                "NU1605"
+              ]
+            },
             "Microsoft.EntityFrameworkCore.Design": {
               "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
               "suppressParent": "All",
               "target": "Package",
-              "version": "[3.1.8, )"
+              "version": "[5.0.1, )"
             },
-            "Swashbuckle.AspNetCore.SwaggerGen": {
-              "target": "Package",
-              "version": "[5.6.3, )"
-            },
-            "Swashbuckle.AspNetCore.SwaggerUI": {
+            "Swashbuckle.AspNetCore": {
               "target": "Package",
               "version": "[5.6.3, )"
             }
