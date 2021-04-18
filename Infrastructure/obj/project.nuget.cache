@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "8XPHOtSnN1RlGT2hsJ8YU9P5ShXrosMjCsh66Q+jpxYSMBOCDRLG5UjaKxt+GCcSqHQ3ysX23owjytmHh4s8sQ==",
+  "dgSpecHash": "8CVPWF5ORg4Q2FFaDhUmGSljuLrUL0ZXYuRtICaa25XNwI+CoopgZOCW12ZmmPf9eDmzkbkbvi9XfX5YtrI+ag==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Nikol\\source\\repos\\WebAPI\\Infrastructure\\Infrastructure.csproj",
+  "projectFilePath": "C:\\Users\\Nikol\\Source\\Repos\\WebAPI\\Infrastructure\\Infrastructure.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Nikol\\.nuget\\packages\\automapper\\9.0.0\\automapper.9.0.0.nupkg.sha512",
     "C:\\Users\\Nikol\\.nuget\\packages\\automapper.extensions.microsoft.dependencyinjection\\7.0.0\\automapper.extensions.microsoft.dependencyinjection.7.0.0.nupkg.sha512",
