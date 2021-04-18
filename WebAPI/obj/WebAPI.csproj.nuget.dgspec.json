@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Nikol\\source\\repos\\WebAPI\\WebAPI\\WebAPI.csproj": {}
+    "C:\\Users\\Nikol\\source\\repos\\WebAPI2\\WebAPI\\WebAPI.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Nikol\\source\\repos\\WebAPI\\Core\\Core.csproj": {
+    "C:\\Users\\Nikol\\source\\repos\\WebAPI2\\Core\\Core.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Nikol\\source\\repos\\WebAPI\\Core\\Core.csproj",
+        "projectUniqueName": "C:\\Users\\Nikol\\source\\repos\\WebAPI2\\Core\\Core.csproj",
         "projectName": "Core",
-        "projectPath": "C:\\Users\\Nikol\\source\\repos\\WebAPI\\Core\\Core.csproj",
+        "projectPath": "C:\\Users\\Nikol\\source\\repos\\WebAPI2\\Core\\Core.csproj",
         "packagesPath": "C:\\Users\\Nikol\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Nikol\\source\\repos\\WebAPI\\Core\\obj\\",
+        "outputPath": "C:\\Users\\Nikol\\source\\repos\\WebAPI2\\Core\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -68,14 +68,14 @@
         }
       }
     },
-    "C:\\Users\\Nikol\\source\\repos\\WebAPI\\Infrastructure\\Infrastructure.csproj": {
+    "C:\\Users\\Nikol\\source\\repos\\WebAPI2\\Infrastructure\\Infrastructure.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Nikol\\source\\repos\\WebAPI\\Infrastructure\\Infrastructure.csproj",
+        "projectUniqueName": "C:\\Users\\Nikol\\source\\repos\\WebAPI2\\Infrastructure\\Infrastructure.csproj",
         "projectName": "Infrastructure",
-        "projectPath": "C:\\Users\\Nikol\\source\\repos\\WebAPI\\Infrastructure\\Infrastructure.csproj",
+        "projectPath": "C:\\Users\\Nikol\\source\\repos\\WebAPI2\\Infrastructure\\Infrastructure.csproj",
         "packagesPath": "C:\\Users\\Nikol\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Nikol\\source\\repos\\WebAPI\\Infrastructure\\obj\\",
+        "outputPath": "C:\\Users\\Nikol\\source\\repos\\WebAPI2\\Infrastructure\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -96,8 +96,8 @@
           "net5.0": {
             "targetAlias": "net5.0",
             "projectReferences": {
-              "C:\\Users\\Nikol\\source\\repos\\WebAPI\\Core\\Core.csproj": {
-                "projectPath": "C:\\Users\\Nikol\\source\\repos\\WebAPI\\Core\\Core.csproj"
+              "C:\\Users\\Nikol\\source\\repos\\WebAPI2\\Core\\Core.csproj": {
+                "projectPath": "C:\\Users\\Nikol\\source\\repos\\WebAPI2\\Core\\Core.csproj"
               }
             }
           }
@@ -118,7 +118,7 @@
             },
             "Microsoft.EntityFrameworkCore.Sqlite": {
               "target": "Package",
-              "version": "[3.1.8, )"
+              "version": "[5.0.1, )"
             },
             "Microsoft.IdentityModel.Tokens": {
               "target": "Package",
@@ -152,14 +152,14 @@
         }
       }
     },
-    "C:\\Users\\Nikol\\source\\repos\\WebAPI\\WebAPI\\WebAPI.csproj": {
+    "C:\\Users\\Nikol\\source\\repos\\WebAPI2\\WebAPI\\WebAPI.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Nikol\\source\\repos\\WebAPI\\WebAPI\\WebAPI.csproj",
+        "projectUniqueName": "C:\\Users\\Nikol\\source\\repos\\WebAPI2\\WebAPI\\WebAPI.csproj",
         "projectName": "WebAPI",
-        "projectPath": "C:\\Users\\Nikol\\source\\repos\\WebAPI\\WebAPI\\WebAPI.csproj",
+        "projectPath": "C:\\Users\\Nikol\\source\\repos\\WebAPI2\\WebAPI\\WebAPI.csproj",
         "packagesPath": "C:\\Users\\Nikol\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Nikol\\source\\repos\\WebAPI\\WebAPI\\obj\\",
+        "outputPath": "C:\\Users\\Nikol\\source\\repos\\WebAPI2\\WebAPI\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -180,8 +180,8 @@
           "net5.0": {
             "targetAlias": "net5.0",
             "projectReferences": {
-              "C:\\Users\\Nikol\\source\\repos\\WebAPI\\Infrastructure\\Infrastructure.csproj": {
-                "projectPath": "C:\\Users\\Nikol\\source\\repos\\WebAPI\\Infrastructure\\Infrastructure.csproj"
+              "C:\\Users\\Nikol\\source\\repos\\WebAPI2\\Infrastructure\\Infrastructure.csproj": {
+                "projectPath": "C:\\Users\\Nikol\\source\\repos\\WebAPI2\\Infrastructure\\Infrastructure.csproj"
               }
             }
           }
