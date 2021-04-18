@@ -1,5 +1,6 @@
 using AutoMapper;
 using Infrastructure.Data;
+using Infrastructure.Identity;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
 using Microsoft.EntityFrameworkCore;
@@ -27,10 +28,10 @@ namespace Core
             services.AddDbContext<StoreContext>(x => 
                 x.UseSqlite(config.GetConnectionString("DefaultConnection")));
 
-            //services.AddDbContext<AppIdentityDbContext>(x =>
-            //{
-            //    x.UseSqlite(config.GetConnectionString("IdentityConnection"));
-            //});
+            services.AddDbContext<AppIdentityDbContext>(x =>
+            {
+                x.UseSqlite(config.GetConnectionString("IdentityConnection"));
+            });
 
             services.AddSingleton<IConnectionMultiplexer>(c =>
             {
