@@ -42,6 +42,7 @@ namespace Core
             });
 
             services.AddApplicationServices();
+            services.AddIdentityService();
             services.AddSwaggerServiceDocumentation();
             services.AddCors(opt =>
             {
