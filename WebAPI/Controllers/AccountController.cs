@@ -1,15 +1,18 @@
-﻿
-using Core.Entities.Identity;
+﻿using Core.Entities.Identity;
 using Core.Interfaces;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Identity;
 using Microsoft.AspNetCore.Mvc;
+using System.Linq;
+using System.Security.Claims;
 using System.Threading.Tasks;
 using WebAPI.DTOs;
 using WebAPI.Errors;
+using WebAPI.Extentions;
 
 namespace WebAPI.Controllers
 {
-    public class AccountController: BaseApiController
+    public class AccountController : BaseApiController
     {
         private readonly UserManager<AppUser> userManager;
         private readonly SignInManager<AppUser> signInManager;
@@ -22,6 +25,36 @@ namespace WebAPI.Controllers
             this.tokenService = tokenService;
         }
 
+        [Authorize]
+        [HttpGet]
+        public async Task<ActionResult<UserDto>> GetCurrentUser()
+        {
+
+            var user = await userManager.FindByEmailFromClaimsPrincipale(HttpContext.User);
+
+            return new UserDto
+            {
+                Email = user.Email,
+                Token = tokenService.CreateToken(user),
+                DisplayName = user.DisplayName
+            };
+        }
+
+        [HttpGet("emailexists")]
+        public async Task<ActionResult<bool>> CheckEmailExistsAsync([FromQuery] string email)
+        {
+            return await userManager.FindByEmailAsync(email) != null;
+        }
+
+        [Authorize]
+        [HttpGet("address")]
+        public async Task<ActionResult<Address>> GetUserAddress()
+        {
+            var user = await userManager.FindUserByClaimsPrincipaleWithAddressAsync(HttpContext.User);
+            return user.Address;
+        }
+
+
         [HttpPost("login")]
         public async Task<ActionResult<UserDto>> Login(LoginDto loginDto)
         {
@@ -32,7 +65,7 @@ namespace WebAPI.Controllers
 
             var result = await signInManager.CheckPasswordSignInAsync(user, loginDto.Password, false);
 
-            if(!result.Succeeded)
+            if (!result.Succeeded)
                 return Unauthorized(new ApiResponse(401));
 
             return new UserDto
@@ -46,7 +79,7 @@ namespace WebAPI.Controllers
         [HttpPost("register")]
         public async Task<ActionResult<UserDto>> Register(RegisterDto registerDto)
         {
-            var user = new AppUser { 
+            var user = new AppUser {
                 DisplayName = registerDto.DisplayName,
                 Email = registerDto.Email,
                 UserName = registerDto.Email
@@ -65,5 +98,7 @@ namespace WebAPI.Controllers
                 Email = user.Email
             };
         }
+
+
     }
 }
