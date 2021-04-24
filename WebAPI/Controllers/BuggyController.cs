@@ -1,4 +1,5 @@
 ﻿using Infrastructure.Data;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 using WebAPI.Errors;
 
@@ -9,7 +10,14 @@ namespace WebAPI.Controllers
         private readonly StoreContext context;
         public BuggyController(StoreContext context)
         {
-            this.context = context;           
+            this.context = context;
+        }
+
+        [HttpGet("testauth")]
+        [Authorize]
+        public ActionResult<string> GetSecretText()
+        {
+            return "Secret text, ahahhahaha";
         }
 
         [HttpGet("notfound")]
