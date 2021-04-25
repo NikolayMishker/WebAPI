@@ -4,8 +4,6 @@ using Core.Interfaces;
 using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Identity;
 using Microsoft.AspNetCore.Mvc;
-using System.Linq;
-using System.Security.Claims;
 using System.Threading.Tasks;
 using WebAPI.DTOs;
 using WebAPI.Errors;
@@ -96,6 +94,11 @@ namespace WebAPI.Controllers
         [HttpPost("register")]
         public async Task<ActionResult<UserDto>> Register(RegisterDto registerDto)
         {
+            if (CheckEmailExistsAsync(registerDto.Email).Result.Value)
+            {
+                return new BadRequestObjectResult(new ApiValidationErrorResponse { Errors = new[] { "Email address already use" } });
+            }
+
             var user = new AppUser {
                 DisplayName = registerDto.DisplayName,
                 Email = registerDto.Email,
