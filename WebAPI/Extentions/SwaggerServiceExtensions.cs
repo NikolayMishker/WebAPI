@@ -13,6 +13,25 @@ namespace WebAPI.Extentions
             {
                 c.SwaggerDoc("v1", new OpenApiInfo { Title = "Web API", Version = "v1" });
                 c.ResolveConflictingActions(apiDescriptions => apiDescriptions.First());
+
+                var secutitySchema = new OpenApiSecurityScheme
+                {
+                    Description = "JWT Auth Bearer Scheme",
+                    Name = "Authorization",
+                    In = ParameterLocation.Header,
+                    Type = SecuritySchemeType.Http,
+                    Scheme = "bearer",
+                    Reference = new OpenApiReference
+                    { 
+                      Type = ReferenceType.SecurityScheme,
+                      Id = "Bearer",
+
+                    }
+                };
+
+                c.AddSecurityDefinition("Bearer", secutitySchema);
+                var securiryRequirement = new OpenApiSecurityRequirement { { secutitySchema, new[] { "Bearer", } } };
+                c.AddSecurityRequirement(securiryRequirement);
             });
 
             return services;
