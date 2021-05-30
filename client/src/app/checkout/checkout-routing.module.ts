@@ -1,10 +1,10 @@
 import { NgModule } from '@angular/core';
 import { CommonModule } from '@angular/common';
-import { CheckputComponent } from './checkput.component';
+import { CheckoutComponent } from './checkout.component';
 import { RouterModule, Routes } from '@angular/router';
 
 const routes: Routes = [
-  {path: '', component: CheckputComponent}
+  {path: '', component: CheckoutComponent}
 ]
 
 @NgModule({
