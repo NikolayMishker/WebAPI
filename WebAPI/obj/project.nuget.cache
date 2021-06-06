@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "OL+yn1xJEOZV69R4Wlyy/qXNJ0+KV2jaoJD5ebjv8+f/J6nccx0vpf4ZeQK3zqUaPIC9KPLetBiVPdmzjUlaGA==",
+  "dgSpecHash": "fL6PrzF8Y0ZLDhnh/n5OXHYjesHWw7osT66YD2v81Hn7vVCpurVwv4yRNlRwbXL57c/N0DN51ylpN1luEpkU8Q==",
   "success": true,
   "projectFilePath": "C:\\Users\\Nikol\\source\\repos\\WebAPI2\\WebAPI\\WebAPI.csproj",
   "expectedPackageFiles": [
@@ -64,12 +64,14 @@
     "C:\\Users\\Nikol\\.nuget\\packages\\microsoft.openapi\\1.2.3\\microsoft.openapi.1.2.3.nupkg.sha512",
     "C:\\Users\\Nikol\\.nuget\\packages\\microsoft.win32.registry\\5.0.0\\microsoft.win32.registry.5.0.0.nupkg.sha512",
     "C:\\Users\\Nikol\\.nuget\\packages\\microsoft.win32.systemevents\\5.0.0\\microsoft.win32.systemevents.5.0.0.nupkg.sha512",
+    "C:\\Users\\Nikol\\.nuget\\packages\\newtonsoft.json\\12.0.3\\newtonsoft.json.12.0.3.nupkg.sha512",
     "C:\\Users\\Nikol\\.nuget\\packages\\pipelines.sockets.unofficial\\2.2.0\\pipelines.sockets.unofficial.2.2.0.nupkg.sha512",
     "C:\\Users\\Nikol\\.nuget\\packages\\sqlitepclraw.bundle_e_sqlite3\\2.0.4\\sqlitepclraw.bundle_e_sqlite3.2.0.4.nupkg.sha512",
     "C:\\Users\\Nikol\\.nuget\\packages\\sqlitepclraw.core\\2.0.4\\sqlitepclraw.core.2.0.4.nupkg.sha512",
     "C:\\Users\\Nikol\\.nuget\\packages\\sqlitepclraw.lib.e_sqlite3\\2.0.4\\sqlitepclraw.lib.e_sqlite3.2.0.4.nupkg.sha512",
     "C:\\Users\\Nikol\\.nuget\\packages\\sqlitepclraw.provider.dynamic_cdecl\\2.0.4\\sqlitepclraw.provider.dynamic_cdecl.2.0.4.nupkg.sha512",
     "C:\\Users\\Nikol\\.nuget\\packages\\stackexchange.redis\\2.2.4\\stackexchange.redis.2.2.4.nupkg.sha512",
+    "C:\\Users\\Nikol\\.nuget\\packages\\stripe.net\\39.50.0\\stripe.net.39.50.0.nupkg.sha512",
     "C:\\Users\\Nikol\\.nuget\\packages\\swashbuckle.aspnetcore\\5.6.3\\swashbuckle.aspnetcore.5.6.3.nupkg.sha512",
     "C:\\Users\\Nikol\\.nuget\\packages\\swashbuckle.aspnetcore.swagger\\5.6.3\\swashbuckle.aspnetcore.swagger.5.6.3.nupkg.sha512",
     "C:\\Users\\Nikol\\.nuget\\packages\\swashbuckle.aspnetcore.swaggergen\\5.6.3\\swashbuckle.aspnetcore.swaggergen.5.6.3.nupkg.sha512",

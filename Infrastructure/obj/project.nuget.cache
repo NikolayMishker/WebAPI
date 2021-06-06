@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "HE5VGQvi8rZ6c+sfShkwyqaXzs+ozADUuALlnlR+URTiO0lVFymOzeMBN6lz7Wu5DeEYdF5IMDe+P7rXLytMiw==",
+  "dgSpecHash": "zyy0jebAmgMduMf/556GKweg3ZQZ74qrhsixn2NNUWuhBzdueyJRFeMC619JFDU3aOnNobZEbc/DB3mTARkR3A==",
   "success": true,
   "projectFilePath": "C:\\Users\\Nikol\\source\\repos\\WebAPI2\\Infrastructure\\Infrastructure.csproj",
   "expectedPackageFiles": [
@@ -56,12 +56,14 @@
     "C:\\Users\\Nikol\\.nuget\\packages\\microsoft.netcore.platforms\\5.0.0\\microsoft.netcore.platforms.5.0.0.nupkg.sha512",
     "C:\\Users\\Nikol\\.nuget\\packages\\microsoft.win32.registry\\5.0.0\\microsoft.win32.registry.5.0.0.nupkg.sha512",
     "C:\\Users\\Nikol\\.nuget\\packages\\microsoft.win32.systemevents\\5.0.0\\microsoft.win32.systemevents.5.0.0.nupkg.sha512",
+    "C:\\Users\\Nikol\\.nuget\\packages\\newtonsoft.json\\12.0.3\\newtonsoft.json.12.0.3.nupkg.sha512",
     "C:\\Users\\Nikol\\.nuget\\packages\\pipelines.sockets.unofficial\\2.2.0\\pipelines.sockets.unofficial.2.2.0.nupkg.sha512",
     "C:\\Users\\Nikol\\.nuget\\packages\\sqlitepclraw.bundle_e_sqlite3\\2.0.4\\sqlitepclraw.bundle_e_sqlite3.2.0.4.nupkg.sha512",
     "C:\\Users\\Nikol\\.nuget\\packages\\sqlitepclraw.core\\2.0.4\\sqlitepclraw.core.2.0.4.nupkg.sha512",
     "C:\\Users\\Nikol\\.nuget\\packages\\sqlitepclraw.lib.e_sqlite3\\2.0.4\\sqlitepclraw.lib.e_sqlite3.2.0.4.nupkg.sha512",
     "C:\\Users\\Nikol\\.nuget\\packages\\sqlitepclraw.provider.dynamic_cdecl\\2.0.4\\sqlitepclraw.provider.dynamic_cdecl.2.0.4.nupkg.sha512",
     "C:\\Users\\Nikol\\.nuget\\packages\\stackexchange.redis\\2.2.4\\stackexchange.redis.2.2.4.nupkg.sha512",
+    "C:\\Users\\Nikol\\.nuget\\packages\\stripe.net\\39.50.0\\stripe.net.39.50.0.nupkg.sha512",
     "C:\\Users\\Nikol\\.nuget\\packages\\system.buffers\\4.5.0\\system.buffers.4.5.0.nupkg.sha512",
     "C:\\Users\\Nikol\\.nuget\\packages\\system.collections.immutable\\5.0.0\\system.collections.immutable.5.0.0.nupkg.sha512",
     "C:\\Users\\Nikol\\.nuget\\packages\\system.componentmodel.annotations\\5.0.0\\system.componentmodel.annotations.5.0.0.nupkg.sha512",
