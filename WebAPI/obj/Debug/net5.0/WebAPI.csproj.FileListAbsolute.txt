@@ -163,3 +163,5 @@ C:\Users\Nikol\source\repos\WebAPI2\WebAPI\obj\Debug\net5.0\WebAPI.dll
 C:\Users\Nikol\source\repos\WebAPI2\WebAPI\obj\Debug\net5.0\ref\WebAPI.dll
 C:\Users\Nikol\source\repos\WebAPI2\WebAPI\obj\Debug\net5.0\WebAPI.pdb
 C:\Users\Nikol\source\repos\WebAPI2\WebAPI\obj\Debug\net5.0\WebAPI.genruntimeconfig.cache
+C:\Users\Nikol\source\repos\WebAPI2\WebAPI\bin\Debug\net5.0\Newtonsoft.Json.dll
+C:\Users\Nikol\source\repos\WebAPI2\WebAPI\bin\Debug\net5.0\Stripe.net.dll
