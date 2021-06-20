@@ -6,6 +6,7 @@ import { environment } from 'src/environments/environment';
 import { Basket, IBasket, IBasketItem, IBasketTotals } from '../shared/models/basket';
 import { IProduct } from '../shared/models/product';
 import { IDeliveryMethod } from '../shared/models/deliveryMethod';
+import { validate } from 'uuid';
 
 @Injectable({
   providedIn: 'root'
@@ -20,9 +21,23 @@ export class BasketService {
   shipping = 0;
 
   constructor(private http : HttpClient) { }
+
+  createPaymentIntent(){
+    return this.http.post(this.baseUrl + 'payments/' + this.getCurrentBasketValue().id, {})
+    .pipe(
+      map((basket: IBasket) => { 
+        this.basketSource.next(basket);
+      })
+    )
+  }
+
     setShippingPrice(deliveryMethod: IDeliveryMethod){
       this.shipping = deliveryMethod.price;
-      this.caculateTotals();
+      const basket = this.getCurrentBasketValue();
+      basket.deliveryMethodId = deliveryMethod.id;
+      basket.shippingPrice = deliveryMethod.price;
+      this.calculateTotals();
+      this.setBasket(basket);
     }
 
   getBasket(id: string){
@@ -30,7 +45,8 @@ export class BasketService {
     .pipe( 
       map((basket: IBasket) => {
         this.basketSource.next(basket);
-        this.caculateTotals(); 
+        this.shipping = basket.shippingPrice;
+        this.calculateTotals(); 
       }));
   }
 
@@ -38,14 +54,14 @@ export class BasketService {
     return this.http.post(this.baseUrl + 'basket', basket).subscribe(
       (response : IBasket) => {
         this.basketSource.next(response);
-        this.caculateTotals(); 
+        this.calculateTotals(); 
       }, error => {
         console.log(error);
       }
     );
   }
 
-  private caculateTotals() {
+  private calculateTotals() {
     const basket = this.getCurrentBasketValue();
     const shipping = this.shipping;
     const subtotal = basket.items.reduce((a, b) => (b.price * b.quantity) + a, 0)

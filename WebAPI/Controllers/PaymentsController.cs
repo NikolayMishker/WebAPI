@@ -4,6 +4,7 @@ using Infrastructure.Services;
 using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 using System.Threading.Tasks;
+using WebAPI.Errors;
 
 namespace WebAPI.Controllers
 {
@@ -19,7 +20,14 @@ namespace WebAPI.Controllers
         [HttpPost("{basketId}")]
         public async Task<ActionResult<CustomerBasket>> CreateOrUpdatePaymentIntent(string basketId)
         {
-            return await paymentService.CreateOrUpdatePaymentIntent(basketId);
+            var basket = await paymentService.CreateOrUpdatePaymentIntent(basketId);
+
+            if (basket == null)
+            {
+                return BadRequest(new ApiResponse(400, "Problem with your basket"));
+            }
+
+            return basket;
         }
     }
 }
