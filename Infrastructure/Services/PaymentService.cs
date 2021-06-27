@@ -6,6 +6,8 @@ using Stripe;
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
+using Order = Core.Entities.OrderAggregate.Order;
+using Core.Specification;
 
 namespace Infrastructure.Services
 {
@@ -78,6 +80,37 @@ namespace Infrastructure.Services
             }
 
             return basket;
+        }
+
+        public async Task<Order> UpdateOrderPaymentFailed(string paymentIntentId)
+        {
+            var spec = new OrderByPaymentIntentIdSpecification(paymentIntentId);
+            var order = await unitOfWork.Repository<Order>().GetEntityWithSpec(spec);
+
+            if (order == null)
+                return null;
+
+            order.Status = OrderStatus.PaymentFailed;
+            unitOfWork.Repository<Order>().Update(order);
+            await unitOfWork.Complete();
+
+            return order;
+        }
+
+        public async Task<Order> UpdateOrderPaymentSucceeded(string paymentIntentId)
+        {
+            var spec = new OrderByPaymentIntentIdSpecification(paymentIntentId);
+            var order = await unitOfWork.Repository<Order>().GetEntityWithSpec(spec);
+
+            if (order == null)
+                return null;
+
+            order.Status = OrderStatus.PaymentRecevied;
+            unitOfWork.Repository<Order>().Update(order);
+
+            await unitOfWork.Complete();
+
+            return order;
         }
     }
 }
