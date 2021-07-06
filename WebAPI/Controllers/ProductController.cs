@@ -30,6 +30,7 @@ namespace Core.Controllers
             this.mapper = mapper;
         }
 
+        [Cached(600)]
         [HttpGet]
         public async Task<ActionResult<Pagination<ProductToReturnDto>>> GetProducts(
             [FromQuery] ProductSpecParams productParams)
@@ -49,6 +50,7 @@ namespace Core.Controllers
                 data));
         }
 
+        [Cached(600)]
         [HttpGet("{id}")]
         [ProducesResponseType(StatusCodes.Status200OK)]
         [ProducesResponseType(StatusCodes.Status404NotFound)]
@@ -63,12 +65,14 @@ namespace Core.Controllers
             return mapper.Map<Product, ProductToReturnDto>(product);  
         }
 
+        [Cached(600)]
         [HttpGet("brands")]
         public async Task<ActionResult<ProductBrand>> GetProductBrands()
         {
             return Ok(await productsBrandRepo.ListAllAsync());
         }
 
+        [Cached(600)]
         [HttpGet("types")]
         public async Task<ActionResult<Product>> GetProductTypes()
         {
